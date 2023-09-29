@@ -1,0 +1,47 @@
+.navbar{
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, #A4D4E8 100%);
+  margin-top: -0.3px;
+}
+
+.text{
+  margin: 10%;
+}
+
+h1 
+{
+  font: 2em sans-serif;
+  margin-top: 30px;
+  text-align: center;
+}
+h1.title {
+  position: relative;
+  z-index: 1;
+}
+h1.title:before {
+  border-top: 3px solid #fe7e15;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 95%;
+  z-index: -1;
+}
+h1.title span {
+
+  background: #fff;
+  padding: 0 15px;
+}
+
+h2 {
+  font: 1em sans-serif;
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.text--body{
+  text-align: justify;
+}
+
